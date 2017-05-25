@@ -478,9 +478,8 @@ extension UITableViewController {
         messageLabel.textAlignment = .center
         messageLabel.font = UIFont.init(name: "Helvetica Neue", size: 18)
         messageLabel.sizeToFit()
-        
+
         self.tableView.backgroundView = messageLabel
-        
     }
 
 }
